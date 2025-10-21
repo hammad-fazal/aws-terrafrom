@@ -1,0 +1,9 @@
+# AWS IAM Users Configuration
+
+users:
+  - username: jawad
+    permission: AmazonS3FullAccess
+  - username: jamshed
+    permission: AmazonEC2FullAccess
+  - username: asim
+    permission: [AmazonEC2FullAccess, AmazonS3FullAccess]
